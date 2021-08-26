@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Macropad-rescue")(type "Legacy")(uri "${KIPRJMOD}/Macropad-rescue.lib")(options "")(descr ""))
+  (lib (name "MCU_AdafruitFeather")(type "Legacy")(uri "/home/kozova1/Garden/MyPCBs/KiCAD/library/mylib.lib")(options "")(descr ""))
+)

@@ -1,0 +1,1131 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_AdafruitFeather:Adafruit_Feather_Conn J1
+U 1 1 611E5BA6
+P 2450 2500
+F 0 "J1" H 2450 3997 60  0000 C CNN
+F 1 "Adafruit_Feather_Conn" H 2450 3891 60  0000 C CNN
+F 2 "AdafruitFeather:Adafruit_Feather_conn.kicad_mod" H 2400 2550 60  0001 C CNN
+F 3 "" H 2400 2550 60  0001 C CNN
+	1    2450 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 1850 0    50   Input ~ 0
+COL0
+Text GLabel 1750 1750 0    50   Input ~ 0
+COL1
+Text GLabel 1750 1650 0    50   Input ~ 0
+COL2
+Text GLabel 1750 1950 0    50   Input ~ 0
+ROW0
+Text GLabel 1750 2050 0    50   Input ~ 0
+ROW1
+Text GLabel 1750 2150 0    50   Input ~ 0
+ROW2
+Text GLabel 1750 2250 0    50   Input ~ 0
+ROW3
+$Comp
+L LED:SK6812 LED1
+U 1 1 612112F5
+P 2450 4450
+F 0 "LED1" H 2794 4496 50  0000 L CNN
+F 1 "SK6812" H 2794 4405 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 2500 4150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2550 4075 50  0001 L TNN
+	1    2450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR08
+U 1 1 61227A69
+P 2650 4750
+F 0 "#PWR08" H 2650 4500 50  0001 C CNN
+F 1 "Earth" H 2650 4600 50  0001 C CNN
+F 2 "" H 2650 4750 50  0001 C CNN
+F 3 "~" H 2650 4750 50  0001 C CNN
+	1    2650 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 2150 2    50   Input ~ 0
+NeoPixelControls
+Text GLabel 2150 4450 0    50   Input ~ 0
+NeoPixelControls
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61244CEF
+P 5250 1500
+F 0 "SW1" H 5250 1785 50  0000 C CNN
+F 1 "SW_Push" H 5250 1694 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5250 1700 50  0001 C CNN
+F 3 "~" H 5250 1700 50  0001 C CNN
+	1    5250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 6124C999
+P 5050 1650
+F 0 "D1" V 5096 1570 50  0000 R CNN
+F 1 "D" V 5005 1570 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 1650 50  0001 C CNN
+F 3 "~" H 5050 1650 50  0001 C CNN
+	1    5050 1650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5050 1800 0    50   Input ~ 0
+ROW0
+Text GLabel 5450 1500 1    50   Input ~ 0
+COL0
+$Comp
+L Switch:SW_Push SW2
+U 1 1 61250FE2
+P 6000 1500
+F 0 "SW2" H 6000 1785 50  0000 C CNN
+F 1 "SW_Push" H 6000 1694 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6000 1700 50  0001 C CNN
+F 3 "~" H 6000 1700 50  0001 C CNN
+	1    6000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 61250FE8
+P 5800 1650
+F 0 "D2" V 5846 1570 50  0000 R CNN
+F 1 "D" V 5755 1570 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5800 1650 50  0001 C CNN
+F 3 "~" H 5800 1650 50  0001 C CNN
+	1    5800 1650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5800 1800 0    50   Input ~ 0
+ROW0
+Text GLabel 6200 1500 1    50   Input ~ 0
+COL1
+$Comp
+L Switch:SW_Push SW3
+U 1 1 61253A74
+P 6750 1500
+F 0 "SW3" H 6750 1785 50  0000 C CNN
+F 1 "SW_Push" H 6750 1694 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6750 1700 50  0001 C CNN
+F 3 "~" H 6750 1700 50  0001 C CNN
+	1    6750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 61253A7A
+P 6550 1650
+F 0 "D3" V 6596 1570 50  0000 R CNN
+F 1 "D" V 6505 1570 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6550 1650 50  0001 C CNN
+F 3 "~" H 6550 1650 50  0001 C CNN
+	1    6550 1650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6550 1800 0    50   Input ~ 0
+ROW0
+Text GLabel 6950 1500 1    50   Input ~ 0
+COL2
+$Comp
+L Switch:SW_Push SW4
+U 1 1 6125EAC6
+P 5250 2050
+F 0 "SW4" H 5250 2335 50  0000 C CNN
+F 1 "SW_Push" H 5250 2244 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5250 2250 50  0001 C CNN
+F 3 "~" H 5250 2250 50  0001 C CNN
+	1    5250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 6125EACC
+P 5050 2200
+F 0 "D4" V 5096 2120 50  0000 R CNN
+F 1 "D" V 5005 2120 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 2200 50  0001 C CNN
+F 3 "~" H 5050 2200 50  0001 C CNN
+	1    5050 2200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5050 2350 0    50   Input ~ 0
+ROW1
+Text GLabel 5450 2050 1    50   Input ~ 0
+COL0
+$Comp
+L Switch:SW_Push SW5
+U 1 1 6125EAD4
+P 6000 2050
+F 0 "SW5" H 6000 2335 50  0000 C CNN
+F 1 "SW_Push" H 6000 2244 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6000 2250 50  0001 C CNN
+F 3 "~" H 6000 2250 50  0001 C CNN
+	1    6000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 6125EADA
+P 5800 2200
+F 0 "D5" V 5846 2120 50  0000 R CNN
+F 1 "D" V 5755 2120 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5800 2200 50  0001 C CNN
+F 3 "~" H 5800 2200 50  0001 C CNN
+	1    5800 2200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5800 2350 0    50   Input ~ 0
+ROW1
+Text GLabel 6200 2050 1    50   Input ~ 0
+COL1
+$Comp
+L Switch:SW_Push SW6
+U 1 1 6125EAE2
+P 6750 2050
+F 0 "SW6" H 6750 2335 50  0000 C CNN
+F 1 "SW_Push" H 6750 2244 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6750 2250 50  0001 C CNN
+F 3 "~" H 6750 2250 50  0001 C CNN
+	1    6750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 6125EAE8
+P 6550 2200
+F 0 "D6" V 6596 2120 50  0000 R CNN
+F 1 "D" V 6505 2120 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6550 2200 50  0001 C CNN
+F 3 "~" H 6550 2200 50  0001 C CNN
+	1    6550 2200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6550 2350 0    50   Input ~ 0
+ROW1
+Text GLabel 6950 2050 1    50   Input ~ 0
+COL2
+$Comp
+L Switch:SW_Push SW7
+U 1 1 61277218
+P 5250 2600
+F 0 "SW7" H 5250 2885 50  0000 C CNN
+F 1 "SW_Push" H 5250 2794 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5250 2800 50  0001 C CNN
+F 3 "~" H 5250 2800 50  0001 C CNN
+	1    5250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 6127721E
+P 5050 2750
+F 0 "D7" V 5096 2670 50  0000 R CNN
+F 1 "D" V 5005 2670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 2750 50  0001 C CNN
+F 3 "~" H 5050 2750 50  0001 C CNN
+	1    5050 2750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5050 2900 0    50   Input ~ 0
+ROW2
+Text GLabel 5450 2600 1    50   Input ~ 0
+COL0
+$Comp
+L Switch:SW_Push SW8
+U 1 1 61277226
+P 6000 2600
+F 0 "SW8" H 6000 2885 50  0000 C CNN
+F 1 "SW_Push" H 6000 2794 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6000 2800 50  0001 C CNN
+F 3 "~" H 6000 2800 50  0001 C CNN
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 6127722C
+P 5800 2750
+F 0 "D8" V 5846 2670 50  0000 R CNN
+F 1 "D" V 5755 2670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5800 2750 50  0001 C CNN
+F 3 "~" H 5800 2750 50  0001 C CNN
+	1    5800 2750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5800 2900 0    50   Input ~ 0
+ROW2
+Text GLabel 6200 2600 1    50   Input ~ 0
+COL1
+$Comp
+L Switch:SW_Push SW9
+U 1 1 61277234
+P 6750 2600
+F 0 "SW9" H 6750 2885 50  0000 C CNN
+F 1 "SW_Push" H 6750 2794 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6750 2800 50  0001 C CNN
+F 3 "~" H 6750 2800 50  0001 C CNN
+	1    6750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 6127723A
+P 6550 2750
+F 0 "D9" V 6596 2670 50  0000 R CNN
+F 1 "D" V 6505 2670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6550 2750 50  0001 C CNN
+F 3 "~" H 6550 2750 50  0001 C CNN
+	1    6550 2750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6550 2900 0    50   Input ~ 0
+ROW2
+Text GLabel 6950 2600 1    50   Input ~ 0
+COL2
+$Comp
+L Switch:SW_Push SW10
+U 1 1 61277242
+P 5250 3150
+F 0 "SW10" H 5250 3435 50  0000 C CNN
+F 1 "SW_Push" H 5250 3344 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 5250 3350 50  0001 C CNN
+F 3 "~" H 5250 3350 50  0001 C CNN
+	1    5250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 61277248
+P 5050 3300
+F 0 "D10" V 5096 3220 50  0000 R CNN
+F 1 "D" V 5005 3220 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 3300 50  0001 C CNN
+F 3 "~" H 5050 3300 50  0001 C CNN
+	1    5050 3300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5050 3450 0    50   Input ~ 0
+ROW3
+Text GLabel 5450 3150 1    50   Input ~ 0
+COL0
+$Comp
+L Switch:SW_Push SW11
+U 1 1 61277250
+P 6000 3150
+F 0 "SW11" H 6000 3435 50  0000 C CNN
+F 1 "SW_Push" H 6000 3344 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6000 3350 50  0001 C CNN
+F 3 "~" H 6000 3350 50  0001 C CNN
+	1    6000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 61277256
+P 5800 3300
+F 0 "D11" V 5846 3220 50  0000 R CNN
+F 1 "D" V 5755 3220 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5800 3300 50  0001 C CNN
+F 3 "~" H 5800 3300 50  0001 C CNN
+	1    5800 3300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5800 3450 0    50   Input ~ 0
+ROW3
+Text GLabel 6200 3150 1    50   Input ~ 0
+COL1
+$Comp
+L Switch:SW_Push SW12
+U 1 1 6127725E
+P 6750 3150
+F 0 "SW12" H 6750 3435 50  0000 C CNN
+F 1 "SW_Push" H 6750 3344 50  0000 C CNN
+F 2 "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u" H 6750 3350 50  0001 C CNN
+F 3 "~" H 6750 3350 50  0001 C CNN
+	1    6750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 61277264
+P 6550 3300
+F 0 "D12" V 6596 3220 50  0000 R CNN
+F 1 "D" V 6505 3220 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6550 3300 50  0001 C CNN
+F 3 "~" H 6550 3300 50  0001 C CNN
+	1    6550 3300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6550 3450 0    50   Input ~ 0
+ROW3
+Text GLabel 6950 3150 1    50   Input ~ 0
+COL2
+$Comp
+L power:+3V3 #PWR01
+U 1 1 6127A48A
+P 1750 1350
+F 0 "#PWR01" H 1750 1200 50  0001 C CNN
+F 1 "+3V3" V 1765 1478 50  0000 L CNN
+F 2 "" H 1750 1350 50  0001 C CNN
+F 3 "" H 1750 1350 50  0001 C CNN
+	1    1750 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR04
+U 1 1 6127AFC3
+P 2650 4050
+F 0 "#PWR04" H 2650 3900 50  0001 C CNN
+F 1 "+3V3" H 2665 4223 50  0000 C CNN
+F 2 "" H 2650 4050 50  0001 C CNN
+F 3 "" H 2650 4050 50  0001 C CNN
+	1    2650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R RLED1
+U 1 1 61280F66
+P 3300 2150
+F 0 "RLED1" V 3093 2150 50  0000 C CNN
+F 1 "470 Ohm" V 3184 2150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3230 2150 50  0001 C CNN
+F 3 "~" H 3300 2150 50  0001 C CNN
+	1    3300 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR02
+U 1 1 612D27B4
+P 1750 1550
+F 0 "#PWR02" H 1750 1300 50  0001 C CNN
+F 1 "Earth" H 1750 1400 50  0001 C CNN
+F 2 "" H 1750 1550 50  0001 C CNN
+F 3 "~" H 1750 1550 50  0001 C CNN
+	1    1750 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR03
+U 1 1 612D5FD6
+P 1750 2750
+F 0 "#PWR03" H 1750 2500 50  0001 C CNN
+F 1 "Earth" H 1750 2600 50  0001 C CNN
+F 2 "" H 1750 2750 50  0001 C CNN
+F 3 "~" H 1750 2750 50  0001 C CNN
+	1    1750 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 6121E883
+P 2850 4200
+F 0 "C1" H 2965 4246 50  0000 L CNN
+F 1 "0.1uF" H 2965 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2888 4050 50  0001 C CNN
+F 3 "~" H 2850 4200 50  0001 C CNN
+	1    2850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4750 2650 4750
+Wire Wire Line
+	2850 4750 2850 4350
+Connection ~ 2650 4750
+Wire Wire Line
+	2650 4750 2850 4750
+Wire Wire Line
+	2850 4050 2650 4050
+Wire Wire Line
+	2450 4050 2450 4150
+Connection ~ 2650 4050
+Wire Wire Line
+	2650 4050 2450 4050
+$Comp
+L LED:SK6812 LED2
+U 1 1 61229B69
+P 3450 4450
+F 0 "LED2" H 3794 4496 50  0000 L CNN
+F 1 "SK6812" H 3794 4405 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 3500 4150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3550 4075 50  0001 L TNN
+	1    3450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR09
+U 1 1 61229B6F
+P 3650 4750
+F 0 "#PWR09" H 3650 4500 50  0001 C CNN
+F 1 "Earth" H 3650 4600 50  0001 C CNN
+F 2 "" H 3650 4750 50  0001 C CNN
+F 3 "~" H 3650 4750 50  0001 C CNN
+	1    3650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR05
+U 1 1 61229B75
+P 3650 4050
+F 0 "#PWR05" H 3650 3900 50  0001 C CNN
+F 1 "+3V3" H 3665 4223 50  0000 C CNN
+F 2 "" H 3650 4050 50  0001 C CNN
+F 3 "" H 3650 4050 50  0001 C CNN
+	1    3650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 61229B7B
+P 3850 4200
+F 0 "C2" H 3965 4246 50  0000 L CNN
+F 1 "0.1uF" H 3965 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3888 4050 50  0001 C CNN
+F 3 "~" H 3850 4200 50  0001 C CNN
+	1    3850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4750 3650 4750
+Wire Wire Line
+	3850 4750 3850 4350
+Connection ~ 3650 4750
+Wire Wire Line
+	3650 4750 3850 4750
+Wire Wire Line
+	3850 4050 3650 4050
+Wire Wire Line
+	3450 4050 3450 4150
+Connection ~ 3650 4050
+Wire Wire Line
+	3650 4050 3450 4050
+$Comp
+L LED:SK6812 LED3
+U 1 1 6122F939
+P 4450 4450
+F 0 "LED3" H 4794 4496 50  0000 L CNN
+F 1 "SK6812" H 4794 4405 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 4500 4150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4550 4075 50  0001 L TNN
+	1    4450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR010
+U 1 1 6122F93F
+P 4650 4750
+F 0 "#PWR010" H 4650 4500 50  0001 C CNN
+F 1 "Earth" H 4650 4600 50  0001 C CNN
+F 2 "" H 4650 4750 50  0001 C CNN
+F 3 "~" H 4650 4750 50  0001 C CNN
+	1    4650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR06
+U 1 1 6122F945
+P 4650 4050
+F 0 "#PWR06" H 4650 3900 50  0001 C CNN
+F 1 "+3V3" H 4665 4223 50  0000 C CNN
+F 2 "" H 4650 4050 50  0001 C CNN
+F 3 "" H 4650 4050 50  0001 C CNN
+	1    4650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6122F94B
+P 4850 4200
+F 0 "C3" H 4965 4246 50  0000 L CNN
+F 1 "0.1uF" H 4965 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 4050 50  0001 C CNN
+F 3 "~" H 4850 4200 50  0001 C CNN
+	1    4850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4750 4650 4750
+Wire Wire Line
+	4850 4750 4850 4350
+Connection ~ 4650 4750
+Wire Wire Line
+	4650 4750 4850 4750
+Wire Wire Line
+	4850 4050 4650 4050
+Wire Wire Line
+	4450 4050 4450 4150
+Connection ~ 4650 4050
+Wire Wire Line
+	4650 4050 4450 4050
+$Comp
+L LED:SK6812 LED4
+U 1 1 6122F959
+P 5450 4450
+F 0 "LED4" H 5794 4496 50  0000 L CNN
+F 1 "SK6812" H 5794 4405 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 5500 4150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5550 4075 50  0001 L TNN
+	1    5450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR011
+U 1 1 6122F95F
+P 5650 4750
+F 0 "#PWR011" H 5650 4500 50  0001 C CNN
+F 1 "Earth" H 5650 4600 50  0001 C CNN
+F 2 "" H 5650 4750 50  0001 C CNN
+F 3 "~" H 5650 4750 50  0001 C CNN
+	1    5650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR07
+U 1 1 6122F965
+P 5650 4050
+F 0 "#PWR07" H 5650 3900 50  0001 C CNN
+F 1 "+3V3" H 5665 4223 50  0000 C CNN
+F 2 "" H 5650 4050 50  0001 C CNN
+F 3 "" H 5650 4050 50  0001 C CNN
+	1    5650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 6122F96B
+P 5850 4200
+F 0 "C4" H 5965 4246 50  0000 L CNN
+F 1 "0.1uF" H 5965 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5888 4050 50  0001 C CNN
+F 3 "~" H 5850 4200 50  0001 C CNN
+	1    5850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4750 5650 4750
+Wire Wire Line
+	5850 4750 5850 4350
+Connection ~ 5650 4750
+Wire Wire Line
+	5650 4750 5850 4750
+Wire Wire Line
+	5850 4050 5650 4050
+Wire Wire Line
+	5450 4050 5450 4150
+Connection ~ 5650 4050
+Wire Wire Line
+	5650 4050 5450 4050
+Wire Wire Line
+	5150 4450 4750 4450
+Wire Wire Line
+	4150 4450 3750 4450
+Wire Wire Line
+	3150 4450 2750 4450
+$Comp
+L LED:SK6812 LED5
+U 1 1 6129524C
+P 2450 5650
+F 0 "LED5" H 2794 5696 50  0000 L CNN
+F 1 "SK6812" H 2794 5605 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 2500 5350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2550 5275 50  0001 L TNN
+	1    2450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR016
+U 1 1 61295252
+P 2650 5950
+F 0 "#PWR016" H 2650 5700 50  0001 C CNN
+F 1 "Earth" H 2650 5800 50  0001 C CNN
+F 2 "" H 2650 5950 50  0001 C CNN
+F 3 "~" H 2650 5950 50  0001 C CNN
+	1    2650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR012
+U 1 1 61295258
+P 2650 5250
+F 0 "#PWR012" H 2650 5100 50  0001 C CNN
+F 1 "+3V3" H 2665 5423 50  0000 C CNN
+F 2 "" H 2650 5250 50  0001 C CNN
+F 3 "" H 2650 5250 50  0001 C CNN
+	1    2650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6129525E
+P 2850 5400
+F 0 "C5" H 2965 5446 50  0000 L CNN
+F 1 "0.1uF" H 2965 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2888 5250 50  0001 C CNN
+F 3 "~" H 2850 5400 50  0001 C CNN
+	1    2850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5950 2650 5950
+Wire Wire Line
+	2850 5950 2850 5550
+Connection ~ 2650 5950
+Wire Wire Line
+	2650 5950 2850 5950
+Wire Wire Line
+	2850 5250 2650 5250
+Wire Wire Line
+	2450 5250 2450 5350
+Connection ~ 2650 5250
+Wire Wire Line
+	2650 5250 2450 5250
+$Comp
+L LED:SK6812 LED6
+U 1 1 6129526C
+P 3450 5650
+F 0 "LED6" H 3794 5696 50  0000 L CNN
+F 1 "SK6812" H 3794 5605 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 3500 5350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3550 5275 50  0001 L TNN
+	1    3450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR017
+U 1 1 61295272
+P 3650 5950
+F 0 "#PWR017" H 3650 5700 50  0001 C CNN
+F 1 "Earth" H 3650 5800 50  0001 C CNN
+F 2 "" H 3650 5950 50  0001 C CNN
+F 3 "~" H 3650 5950 50  0001 C CNN
+	1    3650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR013
+U 1 1 61295278
+P 3650 5250
+F 0 "#PWR013" H 3650 5100 50  0001 C CNN
+F 1 "+3V3" H 3665 5423 50  0000 C CNN
+F 2 "" H 3650 5250 50  0001 C CNN
+F 3 "" H 3650 5250 50  0001 C CNN
+	1    3650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 6129527E
+P 3850 5400
+F 0 "C6" H 3965 5446 50  0000 L CNN
+F 1 "0.1uF" H 3965 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3888 5250 50  0001 C CNN
+F 3 "~" H 3850 5400 50  0001 C CNN
+	1    3850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5950 3650 5950
+Wire Wire Line
+	3850 5950 3850 5550
+Connection ~ 3650 5950
+Wire Wire Line
+	3650 5950 3850 5950
+Wire Wire Line
+	3850 5250 3650 5250
+Wire Wire Line
+	3450 5250 3450 5350
+Connection ~ 3650 5250
+Wire Wire Line
+	3650 5250 3450 5250
+$Comp
+L LED:SK6812 LED7
+U 1 1 6129528C
+P 4450 5650
+F 0 "LED7" H 4794 5696 50  0000 L CNN
+F 1 "SK6812" H 4794 5605 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 4500 5350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4550 5275 50  0001 L TNN
+	1    4450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR018
+U 1 1 61295292
+P 4650 5950
+F 0 "#PWR018" H 4650 5700 50  0001 C CNN
+F 1 "Earth" H 4650 5800 50  0001 C CNN
+F 2 "" H 4650 5950 50  0001 C CNN
+F 3 "~" H 4650 5950 50  0001 C CNN
+	1    4650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR014
+U 1 1 61295298
+P 4650 5250
+F 0 "#PWR014" H 4650 5100 50  0001 C CNN
+F 1 "+3V3" H 4665 5423 50  0000 C CNN
+F 2 "" H 4650 5250 50  0001 C CNN
+F 3 "" H 4650 5250 50  0001 C CNN
+	1    4650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 6129529E
+P 4850 5400
+F 0 "C7" H 4965 5446 50  0000 L CNN
+F 1 "0.1uF" H 4965 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 5250 50  0001 C CNN
+F 3 "~" H 4850 5400 50  0001 C CNN
+	1    4850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 5950 4650 5950
+Wire Wire Line
+	4850 5950 4850 5550
+Connection ~ 4650 5950
+Wire Wire Line
+	4650 5950 4850 5950
+Wire Wire Line
+	4850 5250 4650 5250
+Wire Wire Line
+	4450 5250 4450 5350
+Connection ~ 4650 5250
+Wire Wire Line
+	4650 5250 4450 5250
+$Comp
+L LED:SK6812 LED8
+U 1 1 612952AC
+P 5450 5650
+F 0 "LED8" H 5794 5696 50  0000 L CNN
+F 1 "SK6812" H 5794 5605 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 5500 5350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5550 5275 50  0001 L TNN
+	1    5450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR019
+U 1 1 612952B2
+P 5650 5950
+F 0 "#PWR019" H 5650 5700 50  0001 C CNN
+F 1 "Earth" H 5650 5800 50  0001 C CNN
+F 2 "" H 5650 5950 50  0001 C CNN
+F 3 "~" H 5650 5950 50  0001 C CNN
+	1    5650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR015
+U 1 1 612952B8
+P 5650 5250
+F 0 "#PWR015" H 5650 5100 50  0001 C CNN
+F 1 "+3V3" H 5665 5423 50  0000 C CNN
+F 2 "" H 5650 5250 50  0001 C CNN
+F 3 "" H 5650 5250 50  0001 C CNN
+	1    5650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 612952BE
+P 5850 5400
+F 0 "C8" H 5965 5446 50  0000 L CNN
+F 1 "0.1uF" H 5965 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5888 5250 50  0001 C CNN
+F 3 "~" H 5850 5400 50  0001 C CNN
+	1    5850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5950 5650 5950
+Wire Wire Line
+	5850 5950 5850 5550
+Connection ~ 5650 5950
+Wire Wire Line
+	5650 5950 5850 5950
+Wire Wire Line
+	5850 5250 5650 5250
+Wire Wire Line
+	5450 5250 5450 5350
+Connection ~ 5650 5250
+Wire Wire Line
+	5650 5250 5450 5250
+Wire Wire Line
+	5150 5650 4750 5650
+Wire Wire Line
+	4150 5650 3750 5650
+Wire Wire Line
+	3150 5650 2750 5650
+$Comp
+L LED:SK6812 LED9
+U 1 1 612AF78E
+P 2450 6850
+F 0 "LED9" H 2794 6896 50  0000 L CNN
+F 1 "SK6812" H 2794 6805 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 2500 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 2550 6475 50  0001 L TNN
+	1    2450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR024
+U 1 1 612AF794
+P 2650 7150
+F 0 "#PWR024" H 2650 6900 50  0001 C CNN
+F 1 "Earth" H 2650 7000 50  0001 C CNN
+F 2 "" H 2650 7150 50  0001 C CNN
+F 3 "~" H 2650 7150 50  0001 C CNN
+	1    2650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR020
+U 1 1 612AF79A
+P 2650 6450
+F 0 "#PWR020" H 2650 6300 50  0001 C CNN
+F 1 "+3V3" H 2665 6623 50  0000 C CNN
+F 2 "" H 2650 6450 50  0001 C CNN
+F 3 "" H 2650 6450 50  0001 C CNN
+	1    2650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 612AF7A0
+P 2850 6600
+F 0 "C9" H 2965 6646 50  0000 L CNN
+F 1 "0.1uF" H 2965 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2888 6450 50  0001 C CNN
+F 3 "~" H 2850 6600 50  0001 C CNN
+	1    2850 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 7150 2650 7150
+Wire Wire Line
+	2850 7150 2850 6750
+Connection ~ 2650 7150
+Wire Wire Line
+	2650 7150 2850 7150
+Wire Wire Line
+	2850 6450 2650 6450
+Wire Wire Line
+	2450 6450 2450 6550
+Connection ~ 2650 6450
+Wire Wire Line
+	2650 6450 2450 6450
+$Comp
+L LED:SK6812 LED10
+U 1 1 612AF7AE
+P 3450 6850
+F 0 "LED10" H 3794 6896 50  0000 L CNN
+F 1 "SK6812" H 3794 6805 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 3500 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3550 6475 50  0001 L TNN
+	1    3450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR025
+U 1 1 612AF7B4
+P 3650 7150
+F 0 "#PWR025" H 3650 6900 50  0001 C CNN
+F 1 "Earth" H 3650 7000 50  0001 C CNN
+F 2 "" H 3650 7150 50  0001 C CNN
+F 3 "~" H 3650 7150 50  0001 C CNN
+	1    3650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR021
+U 1 1 612AF7BA
+P 3650 6450
+F 0 "#PWR021" H 3650 6300 50  0001 C CNN
+F 1 "+3V3" H 3665 6623 50  0000 C CNN
+F 2 "" H 3650 6450 50  0001 C CNN
+F 3 "" H 3650 6450 50  0001 C CNN
+	1    3650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 612AF7C0
+P 3850 6600
+F 0 "C10" H 3965 6646 50  0000 L CNN
+F 1 "0.1uF" H 3965 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3888 6450 50  0001 C CNN
+F 3 "~" H 3850 6600 50  0001 C CNN
+	1    3850 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 7150 3650 7150
+Wire Wire Line
+	3850 7150 3850 6750
+Connection ~ 3650 7150
+Wire Wire Line
+	3650 7150 3850 7150
+Wire Wire Line
+	3850 6450 3650 6450
+Wire Wire Line
+	3450 6450 3450 6550
+Connection ~ 3650 6450
+Wire Wire Line
+	3650 6450 3450 6450
+$Comp
+L LED:SK6812 LED11
+U 1 1 612AF7CE
+P 4450 6850
+F 0 "LED11" H 4794 6896 50  0000 L CNN
+F 1 "SK6812" H 4794 6805 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 4500 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4550 6475 50  0001 L TNN
+	1    4450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR026
+U 1 1 612AF7D4
+P 4650 7150
+F 0 "#PWR026" H 4650 6900 50  0001 C CNN
+F 1 "Earth" H 4650 7000 50  0001 C CNN
+F 2 "" H 4650 7150 50  0001 C CNN
+F 3 "~" H 4650 7150 50  0001 C CNN
+	1    4650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR022
+U 1 1 612AF7DA
+P 4650 6450
+F 0 "#PWR022" H 4650 6300 50  0001 C CNN
+F 1 "+3V3" H 4665 6623 50  0000 C CNN
+F 2 "" H 4650 6450 50  0001 C CNN
+F 3 "" H 4650 6450 50  0001 C CNN
+	1    4650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 612AF7E0
+P 4850 6600
+F 0 "C11" H 4965 6646 50  0000 L CNN
+F 1 "0.1uF" H 4965 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 6450 50  0001 C CNN
+F 3 "~" H 4850 6600 50  0001 C CNN
+	1    4850 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 7150 4650 7150
+Wire Wire Line
+	4850 7150 4850 6750
+Connection ~ 4650 7150
+Wire Wire Line
+	4650 7150 4850 7150
+Wire Wire Line
+	4850 6450 4650 6450
+Wire Wire Line
+	4450 6450 4450 6550
+Connection ~ 4650 6450
+Wire Wire Line
+	4650 6450 4450 6450
+$Comp
+L LED:SK6812 LED12
+U 1 1 612AF7EE
+P 5450 6850
+F 0 "LED12" H 5794 6896 50  0000 L CNN
+F 1 "SK6812" H 5794 6805 50  0000 L CNN
+F 2 "kicad-keyboard-parts:MX_SK6812MINI-E_REV" H 5500 6550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5550 6475 50  0001 L TNN
+	1    5450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR027
+U 1 1 612AF7F4
+P 5650 7150
+F 0 "#PWR027" H 5650 6900 50  0001 C CNN
+F 1 "Earth" H 5650 7000 50  0001 C CNN
+F 2 "" H 5650 7150 50  0001 C CNN
+F 3 "~" H 5650 7150 50  0001 C CNN
+	1    5650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR023
+U 1 1 612AF7FA
+P 5650 6450
+F 0 "#PWR023" H 5650 6300 50  0001 C CNN
+F 1 "+3V3" H 5665 6623 50  0000 C CNN
+F 2 "" H 5650 6450 50  0001 C CNN
+F 3 "" H 5650 6450 50  0001 C CNN
+	1    5650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 612AF800
+P 5850 6600
+F 0 "C12" H 5965 6646 50  0000 L CNN
+F 1 "0.1uF" H 5965 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5888 6450 50  0001 C CNN
+F 3 "~" H 5850 6600 50  0001 C CNN
+	1    5850 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 7150 5650 7150
+Wire Wire Line
+	5850 7150 5850 6750
+Connection ~ 5650 7150
+Wire Wire Line
+	5650 7150 5850 7150
+Wire Wire Line
+	5850 6450 5650 6450
+Wire Wire Line
+	5450 6450 5450 6550
+Connection ~ 5650 6450
+Wire Wire Line
+	5650 6450 5450 6450
+Wire Wire Line
+	5150 6850 4750 6850
+Wire Wire Line
+	4150 6850 3750 6850
+Wire Wire Line
+	3150 6850 2750 6850
+Wire Wire Line
+	5750 5650 6150 5650
+Wire Wire Line
+	6150 5650 6150 6150
+Wire Wire Line
+	6150 6150 2150 6150
+Wire Wire Line
+	2150 6150 2150 6850
+Wire Wire Line
+	5750 4450 6150 4450
+Wire Wire Line
+	6150 4450 6150 4950
+Wire Wire Line
+	6150 4950 2150 4950
+Wire Wire Line
+	2150 4950 2150 5650
+$EndSCHEMATC

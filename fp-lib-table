@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "CherryMX_KailhSocket_LED")(type "KiCad")(uri "/home/kozova1/Documents/KicadLibraries/kicad-libraries/footprints/CherryMX_KailhSocket_LED.pretty")(options "")(descr ""))
+  (lib (name "kicad-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/kicad-keyboard-parts.pretty")(options "")(descr ""))
+  (lib (name "Switch_Keyboard_Kailh")(type "KiCad")(uri "/home/kozova1/Documents/KicadLibraries/keyswitch-kicad-library/modules/Switch_Keyboard_Kailh.pretty")(options "")(descr ""))
+  (lib (name "AdafruitFeather")(type "KiCad")(uri "/home/kozova1/Garden/MyPCBs/KiCAD/library.pretty")(options "")(descr ""))
+)
