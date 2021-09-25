@@ -3,4 +3,6 @@
   (lib (name "kicad-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/kicad-keyboard-parts.pretty")(options "")(descr ""))
   (lib (name "Switch_Keyboard_Kailh")(type "KiCad")(uri "/home/kozova1/Documents/KicadLibraries/keyswitch-kicad-library/modules/Switch_Keyboard_Kailh.pretty")(options "")(descr ""))
   (lib (name "AdafruitFeather")(type "KiCad")(uri "/home/kozova1/Garden/MyPCBs/KiCAD/library.pretty")(options "")(descr ""))
+  (lib (name "RickrollQrCode")(type "KiCad")(uri "${KIPRJMOD}/RickrollQrCode.pretty")(options "")(descr ""))
+  (lib (name "Sk6812ReverseMount")(type "KiCad")(uri "${KIPRJMOD}/Sk6812ReverseMount.pretty")(options "")(descr ""))
 )
